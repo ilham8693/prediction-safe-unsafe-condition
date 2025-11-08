@@ -12,6 +12,14 @@ Workplace safety is a critical aspect of industrial and construction environment
 ## Project Output
 This project aims to perform comprehensive data analysis and develop a model of predictive system for industrial and construction environments. The result is model ANN with certain arcitecture and alo transfer learning method using TensorFlow/Keras with its evaluation. Recall is the key metric because missing unsafe conditions (false negatives) can lead to serious risks like accidents or injuries. The final result of the model is `Accuracy 85%` and `Recall 83%`. Analysis and model is deployed sucessfully.
 
+Inference result:
+
+<img src="deployment/Screenshot%201.png" width="500"/>
+
+<img src="deployment/Screenshot%202.png" width="500"/>
+
+<img src="deployment/Screenshot%203.png" width="500"/>
+
 ## Data
 The dataset used in this project was sourced from Kaggle.com and focuses on determining whether an image meets the safety requirements based on the presence of essential Personal Protective Equipment (PPE) such as helmets and reflective vests. Dataset has two class for safe and unsafe class. Each class has Train Set: 810 images, Validation Set: 100 images and Test Set: 100 images.
 
